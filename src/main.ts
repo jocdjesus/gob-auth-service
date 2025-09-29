@@ -12,6 +12,6 @@ async function bootstrap() {
   }));
   
   await app.listen(process.env.PORT || 4000, '0.0.0.0');
-  console.log(`Consejeria Juridica Backend running on port ${process.env.PORT || 4000}`);
+  console.log(`Auth running on port ${process.env.PORT || 4000}`);
 }
 bootstrap();
